@@ -8,7 +8,11 @@ once that's done you need to first run the prompt command
 
 after that you run
 
-\$ npm run build
+\$ npm run build-js
+
+and
+
+\$ npm run build-css
 
 after this the application is ready for usage.
 currently you can only use this application by opening the src/index.html file (this will be changed in the future).

@@ -6,8 +6,8 @@
 	"scripts": {
 		"test": "test",
 		"build": "tsc ./src/js/*.ts && sass ./src/style/todo.scss ./src/style/todo.css",
-		"build-js": "tsc ./src/js/*.ts --watch",
-		"build-css": "sass ./src/style/todo.scss ./src/style/todo.css --watch"
+		"build-js": "tsc ./src/js/*.ts",
+		"build-css": "sass ./src/style/todo.scss ./src/style/todo.css"
 	},
 	"author": "Axel Elgenstierna",
 	"license": "ISC",
