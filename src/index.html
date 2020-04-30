@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>&lt;/salt&gt; :: ToDo</title>
+		<link rel="stylesheet" type="text/css" href="./style/todo.css" />
+		<script defer src="./js/todo.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- Add your markup here -->
+			<div class="input-section">
+				<h3 class="input-header">Register New Todo</h3>
+				<form>
+					<input placeholder="title" maxlength="30" type="text" id="title" />
+					<input
+						placeholder="description"
+						maxlength="250"
+						type="text"
+						id="description"
+					/>
+					<input value="Add" id="add-button" type="submit" />
+				</form>
+			</div>
+			<div id="todo-board">
+				<!-- For the upcoming Todos -->
+			</div>
+		</div>
+	</body>
+</html>
